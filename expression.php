@@ -7,7 +7,7 @@ if (isset($_POST["a"]) && isset($_POST["b"]) && isset($_POST["c"])) {
     $results=pow($a,3) + ($b*3)-($a/$b);
 }
 else{
-     echo "not enough variables"
+     echo "not enough variables";
 }
 
 ?>
